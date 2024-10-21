@@ -4,7 +4,7 @@ let hours = 0;
 let start = document.getElementById("start");
 let pause = document.getElementById("pause");
 let reset = document.getElementById("reset");
-let stopStatus = 0; // will be either be 0 or 1 depending on stopwatch active state
+let stopStatus = 0;
 let stopwatch = document.querySelector(".stopwatch");
 start.addEventListener("click", ()=>{
     if (stopStatus !== 0) clearInterval(stopStatus);

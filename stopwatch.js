@@ -6,7 +6,7 @@ let start = document.getElementById("start");
 let pause = document.getElementById("pause");
 let reset = document.getElementById("reset");
 
-let stopStatus = 0; // will be either be 0 or 1 depending on stopwatch active state
+let stopStatus = 0;
 
 let stopwatch = document.querySelector(".stopwatch");
 
@@ -24,7 +24,7 @@ start.addEventListener("click", () => {
                 hours++
             }
         }
-    let h = hours < 10 ? ("0" + hours ): hours;
+    let h = hours < 10 ? ("0" + hours): hours;
     let m = minutes < 10 ? ("0" + minutes) : minutes;
     let s = seconds < 10 ?("0" + seconds) : seconds;
     stopwatch.innerHTML = `${h} : ${m} : ${s}`
