@@ -23,16 +23,29 @@ h1 {
     border-radius: 7vh;
     padding: 5%;
 }
-.container:hover {
+
+/* Stopwatch */
+
+.stopwatch-container {
+    max-width: 1200px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    border-color: white;
+    border-radius: 7vh;
+    padding: 5%;
+}
+.stopwatch-container:hover {
     background-color: rgba(56, 59, 53, 0.411);
 }
 
 .stopwatch {
     max-width: 1200px;
     color: greenyellow;
-    font-size: 5vh;
+    font-size:3vh;
     font-weight: 700;
-
 }
 
 .stopwatch-btns {
@@ -43,7 +56,6 @@ h1 {
     gap: 5%;
     padding: 5%;
     width: 80%;
-    gap: 5%;
 }
 .stopwatch-btns > button {
     color: white;
@@ -66,4 +78,28 @@ h1 {
     color: rgba(0, 0, 0, 0.932);
     background-color: greenyellow;
     cursor: pointer;
+}
+/* Timer */
+
+.timer-container {
+    max-width: 1200px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    border-color: white;
+    border-radius: 7vh;
+    padding: 5%;
+    margin-top: 20%;
+}
+.timer-container:hover {
+    background-color: rgba(56, 59, 53, 0.411);
+}
+
+.timer {
+    max-width: 1200px;
+    color: greenyellow;
+    font-size:3vh;
+    font-weight: 700;
 }
